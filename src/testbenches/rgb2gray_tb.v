@@ -28,9 +28,7 @@ reg done_i;
  
 wire [7:0] grayscale_o;
 wire done_o;
-
-
-//integer file_id;
+ 
 rgb2gray RGB2GRAY(
     clk,
     rst,
